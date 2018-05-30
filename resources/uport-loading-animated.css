@@ -6,6 +6,7 @@ body,
 .cls-1-r{fill:#5c50ca;}
 .cls-1-t{fill:#5c50ca;}
 .cls-1-icon{fill:#5c50ca;}
+.cls-1-icon-circle{fill: white; stroke: black; stroke-width: 20;}
 
 .bounce-u { animation: 4s bounce-u infinite; }
 @keyframes bounce-u {
