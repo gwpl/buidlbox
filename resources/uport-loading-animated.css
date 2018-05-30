@@ -48,3 +48,16 @@ body,
   80% { transform: scaleX(1.2) scaleY(1.2) translateX(-5%) translateY(-5%); }
   100% { transform: scaleX(1) scaleY(1) translateX(0px) translateY(0px); }
 }
+
+.cls-1-u {
+  fill: #5c50ca;
+  stroke: #5c50ca;
+  stroke-dasharray: 800;
+  stroke-dashoffset: 800;
+  animation: draw 2s linear forwards;
+}
+
+@keyframes draw {
+ from { fill: transparent; stroke-width: 10; }
+ to { fill: #5c50ca; stroke-width: 1; stroke-dashoffset: 0; } 
+}
