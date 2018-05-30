@@ -49,15 +49,15 @@ body,
   100% { transform: scaleX(1) scaleY(1) translateX(0px) translateY(0px); }
 }
 
-.cls-1-u {
+.cls-1-u, .cls-1-p, .cls-1-o, .cls-1-r, .cls-1-t, .cls-1-icon {
   fill: #5c50ca;
   stroke: #5c50ca;
   stroke-dasharray: 800;
   stroke-dashoffset: 800;
-  animation: draw 2s linear forwards;
+  animation: draw-uport 1.5s linear forwards;
 }
 
-@keyframes draw {
+@keyframes draw-uport {
  from { fill: transparent; stroke-width: 10; }
  to { fill: #5c50ca; stroke-width: 1; stroke-dashoffset: 0; } 
 }
